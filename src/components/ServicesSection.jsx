@@ -14,7 +14,7 @@ const experiences = [
     number: '02',
     title: 'Wellness',
     subtitle: 'A softer kind of reset',
-    image: 'https://images.unsplash.com/photo-1540555700478-4be289fbecea?auto=format&fit=crop&w=900&q=85',
+    image: 'https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&w=900&q=85',
     description: 'Make room for recovery, rest and rituals that help you feel more like yourself.',
   },
   {
