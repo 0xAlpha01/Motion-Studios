@@ -30,7 +30,7 @@ export default function ServicesSection() {
   return (
     <section id="experiences" className="mx-auto max-w-7xl px-5 py-20 md:px-10 md:py-28">
       <div className="mb-12 flex flex-col justify-between gap-6 md:mb-16 md:flex-row md:items-end">
-        <SectionHeading kicker="Find your flow" title={<>A practice for<br /><em className="font-normal text-olive">where you are.</em></>} />
+        <SectionHeading kicker="Find your flow" title={<>A practice for<br /><em className="font-normal text-accent">where you are.</em></>} />
         <p className="max-w-sm pb-1 text-sm leading-6 text-ink/60">Start with what feels right. We’ll help you discover the sessions and rituals that fit your life.</p>
       </div>
       <div className="grid gap-5 md:grid-cols-3">
@@ -42,7 +42,7 @@ export default function ServicesSection() {
               <a href={studio.whatsappUrl} target="_blank" rel="noreferrer" className="experience-arrow" aria-label={`Ask about ${item.title}`}><MoveUpRight size={18} /></a>
             </div>
             <div className="pt-5">
-              <p className="text-[10px] uppercase tracking-[0.2em] text-olive">{item.subtitle}</p>
+              <p className="text-[10px] uppercase tracking-[0.2em] text-accent">{item.subtitle}</p>
               <h3 className="mt-2 font-display text-3xl">{item.title}</h3>
               <p className="mt-3 max-w-sm text-sm leading-6 text-ink/60">{item.description}</p>
             </div>

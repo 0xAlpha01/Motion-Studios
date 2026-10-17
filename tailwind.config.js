@@ -4,11 +4,13 @@ export default {
   theme: {
     extend: {
       colors: {
-        paper: '#f6f3ed',
+        paper: '#F5F0E8',
         ink: '#252923',
+        accent: '#A36F4F',
+        brown: '#805234',
         olive: '#6f7960',
-        clay: '#c58f76',
-        sand: '#e9e2d6',
+        clay: '#A36F4F',
+        sand: '#F5F0E8',
       },
       fontFamily: {
         sans: ['DM Sans', 'sans-serif'],

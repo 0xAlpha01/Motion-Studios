@@ -22,7 +22,7 @@ export default function Footer() {
           <p className="pt-3 text-[10px] uppercase tracking-[0.18em] text-ink/40">© {new Date().getFullYear()} Motion Studios</p>
         </div>
       </div>
-      <div className="bg-[#eae5db] px-5 py-3 text-center text-[10px] text-ink/45">Website concept prepared for Motion Studios. Studio details should be confirmed before launch.</div>
+      <div className="bg-[#F5F0E8] px-5 py-3 text-center text-[10px] text-ink/45">Website concept prepared for Motion Studios. Studio details should be confirmed before launch.</div>
     </footer>
   )
 }

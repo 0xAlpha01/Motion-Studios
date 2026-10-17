@@ -8,7 +8,7 @@ export default function Hero() {
         <div className="relative z-10">
           <div className="eyebrow mb-7"><span className="eyebrow-dot" /> A little more room to feel good</div>
           <h1 className="max-w-2xl font-display text-[3.7rem] leading-[0.98] tracking-[-0.055em] sm:text-7xl lg:text-[6.7rem]">
-            Come back<br />to <em className="font-normal text-olive">yourself.</em>
+            Come back<br />to <em className="font-normal text-accent">yourself.</em>
           </h1>
           <p className="mt-7 max-w-md text-base leading-7 text-ink/65 md:text-lg md:leading-8">
             A considered space for movement, strength and stillness. Find your rhythm at Motion Studios, Abuja.
@@ -19,7 +19,7 @@ export default function Hero() {
           </div>
           <div className="mt-12 flex items-center gap-4 border-t border-ink/10 pt-5">
             <div className="flex -space-x-2">
-              {['#b8a18c', '#d2bba5', '#77816d'].map((color, i) => <span key={color} className="h-8 w-8 rounded-full border-2 border-paper" style={{ backgroundColor: color }} />)}
+              {['#A36F4F', '#805234', '#F5F0E8'].map((color, i) => <span key={color} className="h-8 w-8 rounded-full border-2 border-paper" style={{ backgroundColor: color }} />)}
             </div>
             <p className="text-xs leading-5 text-ink/60"><strong className="font-semibold text-ink">{studio.rating}/5 studio rating</strong><br />A growing community in Wuse, Abuja</p>
           </div>
